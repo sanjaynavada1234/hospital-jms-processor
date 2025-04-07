@@ -1,6 +1,9 @@
 # hospital-jms-processor
 A Spring Boot-based messaging system for a Hospital Management application using JMS and ActiveMQ. Implements queue-based communication with support for dead-letter queue handling and message selector
 
+This project is structured following the SOLID principles of object-oriented design to ensure maintainability, scalability, and clean architecture:
+The system heavily leverages interfaces to decouple components (e.g., listeners and services), making it easy to extend and test individual layers independently.
+
 How to Run the Project Locally (Using Maven):
 
 Follow the steps below to set up and run the Hospital JMS Processor project locally using Maven.
